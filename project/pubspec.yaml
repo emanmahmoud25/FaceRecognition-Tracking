@@ -1,0 +1,86 @@
+name: project
+description: A new Flutter project.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: ">=2.19.0-146.2.beta <3.0.0"
+dependencies:
+  awesome_dialog: ^3.0.0
+  camera: ^0.10.5+6
+ # cloud_firestore: ^4.13.3
+ # cloud_functions: ^4.5.6
+  cupertino_icons: ^1.0.2
+  #firebase_auth: ^4.15.0
+  firebase_auth: ^5.0.0
+  firebase_core: ^3.0.0
+  #firebase_messaging: ^14.7.6
+  firebase_messaging: ^15.0.0
+ # firebase_storage: ^11.5.3
+  flutter_svg: ^1.1.6
+  geocoding: ^2.1.1
+  geolocator: ^10.1.0
+  get_it: ^7.2.0
+  google_maps_flutter: ^2.5.1
+  google_sign_in: ^6.1.2
+  #http: ^0.13.6
+  image_picker: ^1.0.7
+  intl: ^0.19.0
+  lottie: ^2.1.0
+  uuid: ^4.3.3
+  particles_fly: ^0.0.8
+  path_provider: ^2.1.1
+  pin_code_fields: ^8.0.1
+  pinput: ^3.0.1
+  provider: ^6.1.1
+  rive: ^0.12.4
+  custom_info_window: ^1.0.1
+  firebase_app_check: ^0.3.0
+  flutter_local_notifications: ^16.3.2
+  fluttertoast: ^8.2.4
+  # url_launcher: ^6.2.4
+  url_launcher: ^6.3.0
+  azblob: 
+  http:
+  mime: ^1.0.5
+  path: ^1.8.3
+  shared_preferences: ^2.0.15
+  video_player: ^2.8.3
+  dialog_flowtter: ^0.3.3
+  firebase_database: ^11.0.0 
+  location: ^6.0.2
+  flutter_polyline_points: ^1.0.0
+  permission_handler: ^11.3.1
+
+  # smart_auth: 
+   #tflite_flutter:
+  #tflite:
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/avaters/
+    - assets/Backgrounds/
+    - assets/icons/
+    - assets/RiveAssets/
+    - assets/Lottie/
+    - assets/Markers_Photos/
+    - assets/dialog_flow_auth.json
+  fonts:
+    - family: Intel
+      fonts:
+        - asset: assets/Fonts/Inter-Regular.ttf
+        - asset: assets/Fonts/Inter-SemiBold.ttf
+          weight: 600
+    - family: Poppins
+      fonts:
+        - asset: assets/Fonts/Poppins-Bold.ttf
+          weight: 700
+    - family: GEOMETR706
+      fonts:
+        - asset: assets/Fonts/GEOMETR706 BLKCN BT BLACK.TTF
+    - family: NEWS706
+      fonts:
+        - asset: assets/Fonts/NEWS706 BT BOLD.TTF
